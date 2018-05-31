@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		291E24A120BE5A2500959657 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 291E24A020BE5A2500959657 /* AppDelegate.m */; };
+		291E24A720BE5A2500959657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291E24A520BE5A2500959657 /* Main.storyboard */; };
+		291E24A920BE5A2500959657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291E24A820BE5A2500959657 /* Assets.xcassets */; };
+		291E24AF20BE5A2500959657 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 291E24AE20BE5A2500959657 /* main.m */; };
+		291E24C420BE9CB700959657 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291E24C320BE9CB700959657 /* TabBarController.m */; };
+		291E24C720BE9E9C00959657 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291E24C620BE9E9C00959657 /* NavigationController.m */; };
+		291E24CE20BEA1BE00959657 /* LXMyMeeroVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 291E24CD20BEA1BE00959657 /* LXMyMeeroVC.m */; };
+		291E24D120BEA1D400959657 /* LXRecommendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 291E24D020BEA1D400959657 /* LXRecommendVC.m */; };
+		291E24D420BEA1E400959657 /* LXKernelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 291E24D320BEA1E400959657 /* LXKernelVC.m */; };
+		8056659D6A66FEBAC7F054A2 /* Pods_MeeroApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8B3762F348D5AEF9A848FF /* Pods_MeeroApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		291E249C20BE5A2500959657 /* MeeroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeeroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		291E249F20BE5A2500959657 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		291E24A020BE5A2500959657 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		291E24A620BE5A2500959657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		291E24A820BE5A2500959657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		291E24AB20BE5A2500959657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		291E24AE20BE5A2500959657 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		291E24BA20BE93C700959657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291E24C220BE9CB700959657 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		291E24C320BE9CB700959657 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		291E24C520BE9E9C00959657 /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		291E24C620BE9E9C00959657 /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		291E24CC20BEA1BE00959657 /* LXMyMeeroVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXMyMeeroVC.h; sourceTree = "<group>"; };
+		291E24CD20BEA1BE00959657 /* LXMyMeeroVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXMyMeeroVC.m; sourceTree = "<group>"; };
+		291E24CF20BEA1D400959657 /* LXRecommendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXRecommendVC.h; sourceTree = "<group>"; };
+		291E24D020BEA1D400959657 /* LXRecommendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXRecommendVC.m; sourceTree = "<group>"; };
+		291E24D220BEA1E400959657 /* LXKernelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXKernelVC.h; sourceTree = "<group>"; };
+		291E24D320BEA1E400959657 /* LXKernelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXKernelVC.m; sourceTree = "<group>"; };
+		6B8B3762F348D5AEF9A848FF /* Pods_MeeroApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeeroApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F271B2BF239ECBF1330029F3 /* Pods-MeeroApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeeroApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeeroApp/Pods-MeeroApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F7E84D072BF000969F260007 /* Pods-MeeroApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeeroApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeeroApp/Pods-MeeroApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		291E249920BE5A2500959657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8056659D6A66FEBAC7F054A2 /* Pods_MeeroApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11D3BB7D5B3799BD077A6E79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B8B3762F348D5AEF9A848FF /* Pods_MeeroApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		291E249320BE5A2500959657 = {
+			isa = PBXGroup;
+			children = (
+				291E249E20BE5A2500959657 /* MeeroApp */,
+				291E249D20BE5A2500959657 /* Products */,
+				448E0DB2C91D5A838B23CA56 /* Pods */,
+				11D3BB7D5B3799BD077A6E79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		291E249D20BE5A2500959657 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				291E249C20BE5A2500959657 /* MeeroApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		291E249E20BE5A2500959657 /* MeeroApp */ = {
+			isa = PBXGroup;
+			children = (
+				291E24C820BEA05200959657 /* Class */,
+				291E24C120BE9C1100959657 /* General */,
+				291E24A820BE5A2500959657 /* Assets.xcassets */,
+				291E24B520BE928D00959657 /* AppDelegate */,
+				291E24BD20BE957B00959657 /* New Group */,
+			);
+			path = MeeroApp;
+			sourceTree = "<group>";
+		};
+		291E24B520BE928D00959657 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				291E249F20BE5A2500959657 /* AppDelegate.h */,
+				291E24A020BE5A2500959657 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		291E24BD20BE957B00959657 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				291E24BA20BE93C700959657 /* Info.plist */,
+				291E24AA20BE5A2500959657 /* LaunchScreen.storyboard */,
+				291E24A520BE5A2500959657 /* Main.storyboard */,
+				291E24AE20BE5A2500959657 /* main.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		291E24C120BE9C1100959657 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				291E24C220BE9CB700959657 /* TabBarController.h */,
+				291E24C320BE9CB700959657 /* TabBarController.m */,
+				291E24C520BE9E9C00959657 /* NavigationController.h */,
+				291E24C620BE9E9C00959657 /* NavigationController.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		291E24C820BEA05200959657 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				291E24CB20BEA13800959657 /* Kernel */,
+				291E24CA20BEA0CD00959657 /* Recommend */,
+				291E24C920BEA08700959657 /* MyMeero */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		291E24C920BEA08700959657 /* MyMeero */ = {
+			isa = PBXGroup;
+			children = (
+				291E24CC20BEA1BE00959657 /* LXMyMeeroVC.h */,
+				291E24CD20BEA1BE00959657 /* LXMyMeeroVC.m */,
+			);
+			path = MyMeero;
+			sourceTree = "<group>";
+		};
+		291E24CA20BEA0CD00959657 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				291E24CF20BEA1D400959657 /* LXRecommendVC.h */,
+				291E24D020BEA1D400959657 /* LXRecommendVC.m */,
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		291E24CB20BEA13800959657 /* Kernel */ = {
+			isa = PBXGroup;
+			children = (
+				291E24D220BEA1E400959657 /* LXKernelVC.h */,
+				291E24D320BEA1E400959657 /* LXKernelVC.m */,
+			);
+			path = Kernel;
+			sourceTree = "<group>";
+		};
+		448E0DB2C91D5A838B23CA56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F271B2BF239ECBF1330029F3 /* Pods-MeeroApp.debug.xcconfig */,
+				F7E84D072BF000969F260007 /* Pods-MeeroApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		291E249B20BE5A2500959657 /* MeeroApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291E24B220BE5A2500959657 /* Build configuration list for PBXNativeTarget "MeeroApp" */;
+			buildPhases = (
+				7A0772839EF914FDB20BE2D7 /* [CP] Check Pods Manifest.lock */,
+				291E249820BE5A2500959657 /* Sources */,
+				291E249920BE5A2500959657 /* Frameworks */,
+				291E249A20BE5A2500959657 /* Resources */,
+				462A9FC35118E9360FF7FA65 /* [CP] Embed Pods Frameworks */,
+				C26DFB8A1FAA40AC06F4E290 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeeroApp;
+			productName = MeeroApp;
+			productReference = 291E249C20BE5A2500959657 /* MeeroApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		291E249420BE5A2500959657 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LX;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Technology Co., Ltd.meero";
+				TargetAttributes = {
+					291E249B20BE5A2500959657 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 291E249720BE5A2500959657 /* Build configuration list for PBXProject "MeeroApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 291E249320BE5A2500959657;
+			productRefGroup = 291E249D20BE5A2500959657 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				291E249B20BE5A2500959657 /* MeeroApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		291E249A20BE5A2500959657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291E24A920BE5A2500959657 /* Assets.xcassets in Resources */,
+				291E24A720BE5A2500959657 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		462A9FC35118E9360FF7FA65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeeroApp/Pods-MeeroApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A0772839EF914FDB20BE2D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeeroApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C26DFB8A1FAA40AC06F4E290 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeeroApp/Pods-MeeroApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		291E249820BE5A2500959657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291E24D120BEA1D400959657 /* LXRecommendVC.m in Sources */,
+				291E24C420BE9CB700959657 /* TabBarController.m in Sources */,
+				291E24C720BE9E9C00959657 /* NavigationController.m in Sources */,
+				291E24CE20BEA1BE00959657 /* LXMyMeeroVC.m in Sources */,
+				291E24D420BEA1E400959657 /* LXKernelVC.m in Sources */,
+				291E24AF20BE5A2500959657 /* main.m in Sources */,
+				291E24A120BE5A2500959657 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		291E24A520BE5A2500959657 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				291E24A620BE5A2500959657 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		291E24AA20BE5A2500959657 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				291E24AB20BE5A2500959657 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		291E24B020BE5A2500959657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		291E24B120BE5A2500959657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		291E24B320BE5A2500959657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F271B2BF239ECBF1330029F3 /* Pods-MeeroApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R6MJZ8UA7;
+				INFOPLIST_FILE = MeeroApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LX.MeeroApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		291E24B420BE5A2500959657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E84D072BF000969F260007 /* Pods-MeeroApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R6MJZ8UA7;
+				INFOPLIST_FILE = MeeroApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LX.MeeroApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		291E249720BE5A2500959657 /* Build configuration list for PBXProject "MeeroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291E24B020BE5A2500959657 /* Debug */,
+				291E24B120BE5A2500959657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291E24B220BE5A2500959657 /* Build configuration list for PBXNativeTarget "MeeroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291E24B320BE5A2500959657 /* Debug */,
+				291E24B420BE5A2500959657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 291E249420BE5A2500959657 /* Project object */;
+}

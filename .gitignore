@@ -1,0 +1,12 @@
+
+.DS_Store
+MeeroAPP/Pods/
+/MeeroApp/*.xcuserstate
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+*.xcuserstate
+

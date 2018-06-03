@@ -86,7 +86,6 @@
 			children = (
 				291E24C820BEA05200959657 /* Class */,
 				291E24C120BE9C1100959657 /* General */,
-				291E24A820BE5A2500959657 /* Assets.xcassets */,
 				291E24B520BE928D00959657 /* AppDelegate */,
 				291E24BD20BE957B00959657 /* New Group */,
 			);
@@ -105,6 +104,7 @@
 		291E24BD20BE957B00959657 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				291E24A820BE5A2500959657 /* Assets.xcassets */,
 				291E24BA20BE93C700959657 /* Info.plist */,
 				291E24AA20BE5A2500959657 /* LaunchScreen.storyboard */,
 				291E24A520BE5A2500959657 /* Main.storyboard */,
@@ -246,9 +246,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MeeroApp/Pods-MeeroApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LXToolsModules/LXToolsModules.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LXToolsModules.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -18,6 +18,7 @@
 		291E24D420BEA1E400959657 /* LXKernelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 291E24D320BEA1E400959657 /* LXKernelVC.m */; };
 		291E24E320C4D5FA00959657 /* LXLoadingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 291E24E220C4D5FA00959657 /* LXLoadingLayer.m */; };
 		291E24E620C51E4700959657 /* LXLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 291E24E520C51E4700959657 /* LXLoadingView.m */; };
+		291E24EE20C6D42C00959657 /* UIColor+LXHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 291E24ED20C6D42C00959657 /* UIColor+LXHex.m */; };
 		8056659D6A66FEBAC7F054A2 /* Pods_MeeroApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8B3762F348D5AEF9A848FF /* Pods_MeeroApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,8 @@
 		291E24E220C4D5FA00959657 /* LXLoadingLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXLoadingLayer.m; sourceTree = "<group>"; };
 		291E24E420C51E4700959657 /* LXLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXLoadingView.h; sourceTree = "<group>"; };
 		291E24E520C51E4700959657 /* LXLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXLoadingView.m; sourceTree = "<group>"; };
+		291E24EC20C6D42C00959657 /* UIColor+LXHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+LXHex.h"; sourceTree = "<group>"; };
+		291E24ED20C6D42C00959657 /* UIColor+LXHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LXHex.m"; sourceTree = "<group>"; };
 		6B8B3762F348D5AEF9A848FF /* Pods_MeeroApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeeroApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F271B2BF239ECBF1330029F3 /* Pods-MeeroApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeeroApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeeroApp/Pods-MeeroApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F7E84D072BF000969F260007 /* Pods-MeeroApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeeroApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeeroApp/Pods-MeeroApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,7 +97,7 @@
 				291E24C820BEA05200959657 /* Class */,
 				291E24C120BE9C1100959657 /* General */,
 				291E24B520BE928D00959657 /* AppDelegate */,
-				291E24BD20BE957B00959657 /* New Group */,
+				291E24BD20BE957B00959657 /* Support Files */,
 			);
 			path = MeeroApp;
 			sourceTree = "<group>";
@@ -108,7 +111,7 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		291E24BD20BE957B00959657 /* New Group */ = {
+		291E24BD20BE957B00959657 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				291E24A820BE5A2500959657 /* Assets.xcassets */,
@@ -117,12 +120,13 @@
 				291E24A520BE5A2500959657 /* Main.storyboard */,
 				291E24AE20BE5A2500959657 /* main.m */,
 			);
-			name = "New Group";
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 		291E24C120BE9C1100959657 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				291E24EB20C6D3ED00959657 /* Categories */,
 				291E24C220BE9CB700959657 /* TabBarController.h */,
 				291E24C320BE9CB700959657 /* TabBarController.m */,
 				291E24C520BE9E9C00959657 /* NavigationController.h */,
@@ -185,6 +189,15 @@
 				291E24E520C51E4700959657 /* LXLoadingView.m */,
 			);
 			path = LoadingAnimation;
+			sourceTree = "<group>";
+		};
+		291E24EB20C6D3ED00959657 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				291E24EC20C6D42C00959657 /* UIColor+LXHex.h */,
+				291E24ED20C6D42C00959657 /* UIColor+LXHex.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		448E0DB2C91D5A838B23CA56 /* Pods */ = {
@@ -325,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				291E24D120BEA1D400959657 /* LXRecommendVC.m in Sources */,
+				291E24EE20C6D42C00959657 /* UIColor+LXHex.m in Sources */,
 				291E24E620C51E4700959657 /* LXLoadingView.m in Sources */,
 				291E24C420BE9CB700959657 /* TabBarController.m in Sources */,
 				291E24E320C4D5FA00959657 /* LXLoadingLayer.m in Sources */,

@@ -600,13 +600,10 @@ static CGFloat const kVerticalFatLayerWidth = 6;
 
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {
     if ([[anim valueForKey:kName] isEqualToString:@"step1"]) {
-        NSLog(@"====1");
         [self doStep2];
     } else if ([[anim valueForKey:kName] isEqualToString:@"step2"]) {
-        NSLog(@"====2");
         [self doStep3];
     } else if ([[anim valueForKey:kName] isEqualToString:@"step3"]) {
-        NSLog(@"====3");
         if (self.isSuccess) {
             [self doStep4];
         } else {
